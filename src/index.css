@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{margin: 0; padding: 0; box-sizing: border-box; font-size: 18px; font-family: "Helvetica Neue", sans-serif;}
+
+
+.card{
+    
+    border-color: #808080 #000000 #000000 #808080;
+    border-width: 1px;
+    border-style: solid;
+    color: #000000;
+    font-size: 20pt;
+    position: absolute;
+    width:  6em;
+    height: 8.00em;
+    margin: 10px 0 0 15px;
+    
+    
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+    padding: 2px 16px;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-size: 10px;
+    color:grey;
+    font-style: italic;
+}
+
+.siteUser {
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+[data-letters]:before {
+    content:attr(data-letters);
+    display:block;
+    font-size:1em;
+    width:2.5em;
+    height:2.5em;
+    line-height:2.5em;
+    text-align:center;
+    border-radius:50%;
+    background:plum;
+    vertical-align:text-bottom;
+    margin-right:50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color:white;
+    }
+
+b{
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+
+.button{
+    margin: 20px 20px 20px 15px;
+    width: 10px;
+    height: 10px;
+}
+
+button{
+    background-color: blue;
+    margin: 20px 10px 20px 3px;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.detail{
+    border-color: #808080 #000000 #000000 #808080;
+    border-width: 1px;
+    border-style: solid;
+    color: #000000;
+    font-size: 20pt;
+    position: absolute;
+    width:  6em;
+    height: 8.00em;
+    margin: 10px 0 0 15px;
+
 }
